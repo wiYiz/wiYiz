@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">胶囊记账</string>
+    <string name="widget_desc">胶囊水族缸 — 预算剩余一目了然</string>
+    <string name="shortcut_synthesis_short">合成胶囊</string>
+    <string name="shortcut_synthesis_long">合成胶囊</string>
+    <string name="shortcut_wake_short">唤醒胶囊</string>
+    <string name="shortcut_wake_long">唤醒胶囊</string>
+    <string name="shortcut_color_short">组件配色</string>
+    <string name="shortcut_color_long">设置小组件配色</string>
+</resources>

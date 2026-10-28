@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="synthesis_capsule"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_synthesis_short"
+        android:shortcutLongLabel="@string/shortcut_synthesis_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.capsulebudget.app"
+            android:targetClass="com.capsulebudget.app.MainActivity">
+            <extra android:name="action" android:value="synthesis" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="wake_capsule"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_wake_short"
+        android:shortcutLongLabel="@string/shortcut_wake_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.capsulebudget.app"
+            android:targetClass="com.capsulebudget.app.MainActivity">
+            <extra android:name="action" android:value="wake" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="widget_color"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_color_short"
+        android:shortcutLongLabel="@string/shortcut_color_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.capsulebudget.app"
+            android:targetClass="com.capsulebudget.app.WidgetColorActivity" />
+    </shortcut>
+</shortcuts>
